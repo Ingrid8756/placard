@@ -10,12 +10,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:wght@300;400&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!--Link a AOS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     
     <header>
         
-        <h1><img src="./Imagenes/Logo.png" alt="Logo Placard" class="logo" width="80px"> Placard
+        <h1 class="animate__animated animate__fadeInUp"><img src="./Imagenes/Logo.png" alt="Logo Placard" class="logo" width="80px"> Placard
         </h1><br>
     
         
@@ -72,7 +78,8 @@
                     
                 
             <br>
-        <div class="portada">
+        <div class="portada" data-aos="fade-left"
+        data-aos-easing="ease-in-sine">
             <img src="./Imagenes/portada.jpg" alt="Portada Placard" width="600px">
         </div><br><br><br>
         <nav class="carrito">
@@ -150,7 +157,13 @@
         </section>
     </footer>
 
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
+    </script>
+
 
     
 </body>
