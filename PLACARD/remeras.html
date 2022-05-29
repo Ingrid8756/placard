@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Remeras</title>
+    <!--link a la hoja de estilos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
     <link rel="shortcut icon" href="./Imagenes/favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,36 +26,46 @@
 
     
     <main>
-        <nav class="categorias">
-            <ul class="menu">
-                <li class="home"><a href="index.html">Home</a></li>
-                <li class="productos"><a href="productos.html">Productos</a>
-                    <ul>
-                        <li><a href="remeras.html"><img src="./Imagenes/Remera Icono.png" alt="Icono Remera" width="20px">  Remeras</a></li><hr>
-                        
-                        <li><a href="pantalones.html"><img src="./Imagenes/Pantalon Icono.jpg" alt="icono Pantalon" width="20px">  Pantalones</a></li><hr>
-                        
-                        <li><img src="./Imagenes/Short Icono.png" alt="Short Icono" width="20px">  Shorts y Bermudas</li><hr>
-                        
-                        <li><img src="./Imagenes/falda icono.png" alt="Icono Falda" width="20px">  Faldas</li><hr>
-                            
-                        <li><img src="./Imagenes/abrigo icono.png" alt="Icono Abrigo" width="20px">  Abrigos</li><hr>
-                            
-                        <li><img src="./Imagenes/1000_F_328628164_ocmvl7ekFkxQ4oBjY3U2WgoeDCRxYEaC.jpg" alt="Icono Buzos y Sweaters" width="20px">  Buzos y Sweaters</li><hr>
-                    
-                        <li><img src="./Imagenes/calzado icono.jpg" alt="Icono Calzado" width="20px">  Calzado</li><hr>
-                            
-                        <li><img src="./Imagenes/accesorio icono.png" alt="icono Accesorio" width="20px">  Accesorios</li><hr>
-                        
-                        <li><img src="./Imagenes/fiesta icono.jpg" alt="Icono Fiesta" width="20px">  Fiesta</li>
-                            
-                    </ul>
-                </li>    
-                <li class="como"><a href="comocomprar.html">Como Comprar</a></li>
-                <li class="contacto"><a href="contacto.html">Contacto</a></li>
+        <nav class="navbar navbar-expand-lg pi-4">
+            <div class="container-fluid">
                 
-            </ul>
-        </nav><br>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item p-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item dropdown p-2"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="remeras.html">Remeras</a></li><hr>
+                                
+                                <li><a class="dropdown-item" href="pantalones.html">Pantalones</a></li><hr>
+                                
+                                <li>Shorts y Bermudas</li><hr>
+                                
+                                <li>Faldas</li><hr>
+                                    
+                                <li>Abrigos</li><hr>
+                                    
+                                <li>Buzos y Sweaters</li><hr>
+                            
+                                <li>Calzado</li><hr>
+                                    
+                                <li>Accesorios</li><hr>
+                                
+                                <li>Fiesta</li>
+                                    
+                            </ul>
+                        </li>    
+                        <li class="nav-item p-2"><a class="nav-link" href="comocomprar.html">Como Comprar</a></li>
+                        <li class="nav-item p-2"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item p-2"><a class="nav-link" href="ayuda.html">Ayuda</a></li>
+                    </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <nav class="nav2">
             <img src="./Imagenes/menu hamburguesa.png" alt="Menu Hamburguesa" width="50rem">
         </nav>
@@ -169,6 +181,7 @@
         </section>
     </footer>
 
-    
+    <!--script de JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

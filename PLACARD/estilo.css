@@ -84,7 +84,7 @@ main{
 }
 
 /*CSS para nav categorias*/
-.categorias{
+.navbar{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -108,7 +108,7 @@ main{
     
 
 }
-.menu li a{
+.nav-item{
     text-decoration: none;
     display: inline-block;
     color: #E04E4E;
@@ -121,17 +121,17 @@ ul ul{
     display: none;
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     text-align: left;
     transition: all 2s ease;
+    margin: 1rem;
 }
 ul ul li{
     display: inline-block;
-    text-align: left;
-    
-    
+    text-align: left;   
 
 }
+
 ul li:hover ul{
     display: block;
     background-color: rgb(249, 250, 178);
@@ -168,7 +168,6 @@ h2{
     background-image: url(../PLACARD/Imagenes/portada.jpg);
     background-size: cover;
     grid-area: portada;
-    grid-column: 1/3;
 }
 .nav1{
     background-color: #E8DDD9;

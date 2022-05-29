@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    
     <title>Placard</title>
+    <!--link a la hoja de estilos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--link a estilo propio-->
+    <link rel="stylesheet" href="estilo.css">
+    <!--shortcut icon-->
     <link rel="shortcut icon" href="./Imagenes/favicon-16x16.png">
+    <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:wght@300;400&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!--animate css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <!--Link a AOS-->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -24,51 +29,52 @@
         <h1 class="animate__animated animate__fadeInUp"><img src="./Imagenes/Logo.png" alt="Logo Placard" class="logo" width="80px"> Placard
         </h1><br>
     
-        
-            
-            
-            
-            
     </header><br><br>
     
-       
-        
-        
-        
-            
-        
     <main>
-        <nav class="categorias">
-            <ul class="menu">
-                <li><a href="productos.html">Productos</a>
-                    <ul>
-                        <li><a href="remeras.html"><img src="./Imagenes/Remera Icono.png" alt="Icono Remera" width="20px">  Remeras</a></li><hr>
-                        
-                        <li><a href="pantalones.html"><img src="./Imagenes/Pantalon Icono.jpg" alt="icono Pantalon" width="20px">  Pantalones</a></li><hr>
-                        
-                        <li><img src="./Imagenes/Short Icono.png" alt="Short Icono" width="20px">  Shorts y Bermudas</li><hr>
-                        
-                        <li><img src="./Imagenes/falda icono.png" alt="Icono Falda" width="20px">  Faldas</li><hr>
-                            
-                        <li><img src="./Imagenes/abrigo icono.png" alt="Icono Abrigo" width="20px">  Abrigos</li><hr>
-                            
-                        <li><img src="./Imagenes/1000_F_328628164_ocmvl7ekFkxQ4oBjY3U2WgoeDCRxYEaC.jpg" alt="Icono Buzos y Sweaters" width="20px">  Buzos y Sweaters</li><hr>
-                    
-                        <li><img src="./Imagenes/calzado icono.jpg" alt="Icono Calzado" width="20px">  Calzado</li><hr>
-                            
-                        <li><img src="./Imagenes/accesorio icono.png" alt="icono Accesorio" width="20px">  Accesorios</li><hr>
-                        
-                        <li><img src="./Imagenes/fiesta icono.jpg" alt="Icono Fiesta" width="20px">  Fiesta</li>
-                            
-                    </ul>
-                </li>    
-                <li><a href="comocomprar.html">Como Comprar</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="ayuda.html">Ayuda</a></li>
-            </ul>
-        </nav><br><br>
+        
         <nav class="nav2">
             <img src="./Imagenes/menu hamburguesa.png" alt="Menu Hamburguesa" width="50rem">
+        </nav>
+
+        <nav class="navbar navbar-expand-lg pi-4">
+            <div class="container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item dropdown p-2"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="remeras.html">Remeras</a></li><hr>
+                                
+                                <li><a class="dropdown-item" href="pantalones.html">Pantalones</a></li><hr>
+                                
+                                <li>Shorts y Bermudas</li><hr>
+                                
+                                <li>Faldas</li><hr>
+                                    
+                                <li>Abrigos</li><hr>
+                                    
+                                <li>Buzos y Sweaters</li><hr>
+                            
+                                <li>Calzado</li><hr>
+                                    
+                                <li>Accesorios</li><hr>
+                                
+                                <li>Fiesta</li>
+                                    
+                            </ul>
+                        </li>    
+                        <li class="nav-item p-2"><a class="nav-link" href="comocomprar.html">Como Comprar</a></li>
+                        <li class="nav-item p-2"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item p-2"><a class="nav-link" href="ayuda.html">Ayuda</a></li>
+                    </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <nav class="buscar">
                 
@@ -156,7 +162,7 @@
             <img src="./Imagenes/Google Play.png" alt="Play Store" width="30px">
         </section>
     </footer>
-
+    <!--script de AOS-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init({
         easing: 'ease-out-back',
@@ -164,7 +170,7 @@
     });
     </script>
 
-
-    
+    <!--script de JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
