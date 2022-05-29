@@ -73,35 +73,65 @@
             </div>
         </nav>
         <nav class="buscar">
-                
             <form action="Buscar" class="buscar" 200px></form>
             <input type class="text" placeholder="Que estas buscando?">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
         </nav>
-                    
-                
-            <br>
+        <br>
+
         <div class="portada" data-aos="fade-left"
         data-aos-easing="ease-in-sine">
             <img src="./Imagenes/portada.jpg" alt="Portada Placard" width="600px">
-        </div><br><br><br>
+        </div><br>
         <nav class="carrito">
             <h3>Carrito <img src="./Imagenes/carrito icono.png" alt="Carrito Icono" width="30px"></h3>
                     
         </nav>   
         <nav class="nav1">
-            <ul class="filtrosNav"><h3>Filtros</h3>
-                <ul class="filtro1"><h4>Genero</h4>
-                    <li>Mujer</li>
-                    <li>Hombre</li>
-                    <li>Sin Genero</li>
-                </ul>
-                <ul class="filtro2"><h4>Envios</h4>
-                    <li>Sin Cargo</li>
-                    <li>A todo el Pais</li>
-                    <li>Retiro por Tienda</li>
-                </ul>
-            </ul>
+            <ul class="filtro1">
+                <h3>Filtros</h3>
+                <li><h4>Genero</h4></li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Mujer
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                    Hombre
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Sin Genero
+                    </label>
+                </div><br>
+
+                <li><h4>Envios</h4></li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Sin Cargo
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                    A Todo el Pais
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Retiro por Tienda
+                    </label>
+                </div>
+            </ul>           
         </nav>
+
             <h2 class="novedades">Nuevos ingresos A/W 2022! 🍂❄</h2><br>  
         
         <div class="contenedor">
@@ -137,6 +167,14 @@
                 <li>Polera Sweden</li>
                 <li><a href="https://www.rie.com.ar/productos/polera-suede/">Rie</a></li>
             </ul>
+            <ul class="pagination mx-auto">
+                <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+            </ul>
+            
         </div>
     
     </main>

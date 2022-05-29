@@ -70,9 +70,9 @@
             <img src="./Imagenes/menu hamburguesa.png" alt="Menu Hamburguesa" width="50rem">
         </nav>
         <nav class="buscar">
-                
             <form action="Buscar" class="buscar" 200px></form>
             <input type class="text" placeholder="Que estas buscando?">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
         </nav>
                     
                 
@@ -82,18 +82,48 @@
                     
         </nav>   
         <nav class="nav1">
-            <ul class="filtrosNav"><h3>Filtros</h3>
-                <ul class="filtro1"><h4>Genero</h4>
-                    <li>Mujer</li>
-                    <li>Hombre</li>
-                    <li>Sin Genero</li>
-                </ul>
-                <ul class="filtro2"><h4>Envios</h4>
-                    <li>Sin Cargo</li>
-                    <li>A todo el Pais</li>
-                    <li>Retiro por Tienda</li>
-                </ul>
-            </ul>
+            <ul class="filtro1">
+                <h3>Filtros</h3>
+                <li><h4>Genero</h4></li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Mujer
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                    Hombre
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Sin Genero
+                    </label>
+                </div><br>
+
+                <li><h4>Envios</h4></li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Sin Cargo
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                    A Todo el Pais
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Retiro por Tienda
+                    </label>
+                </div>
+            </ul>           
         </nav>
         <nav class="padreFiltros">
             <ul class="filtros">
@@ -159,6 +189,13 @@
                 <li>Remera Melisa</li>
                 <li>$4700</li>
                 <li><a href="https://www.tucciweb.com/tp30er0199-remera-mc-believe/p?skuId=302497">Tucci</a></li>
+            </ul>
+            <ul class="pagination mx-auto">
+                <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
             </ul>
         </div>
 
