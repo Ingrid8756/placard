@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+main{
+    width: 600;
+    height: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+.caja{
+    width: 10%;
+    height: 15vh;
+    margin: 2rem;
+}
+.azul{
+    background-color: blue;
+}
+.verde{
+    background-color: green;
+}
+.roja{
+    background-color: red;
+}
+.amarilla{
+    background-color: yellow;
+}
+.rosa{
+    background-color: pink;
+}
+.lila{
+    background-color: blueviolet;
+}
