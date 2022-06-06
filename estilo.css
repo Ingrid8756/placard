@@ -182,7 +182,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../PLACARD/Imagenes/portada.jpg);
+    background-image: url(../Imagenes/portada.jpg);
     background-size: cover;
     grid-area: portada;
 }
@@ -259,8 +259,7 @@ h2{
     margin: 10px;
     display: inline-block;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    
     font-family: 'Poppins', sans-serif;
     padding: 20px;
 }
