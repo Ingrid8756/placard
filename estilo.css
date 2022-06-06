@@ -182,7 +182,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../Imagenes/portada.jpg);
+    background-image: url(./Imagenes/portada.jpg);
     background-size: cover;
     grid-area: portada;
 }
