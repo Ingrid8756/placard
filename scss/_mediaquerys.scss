@@ -1,0 +1,55 @@
+@media screen and (max-width:1024px){
+    body{
+        font-family: 'Oxygen', sans-serif;
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "hambur buscador"
+        "contenedor contenedor"
+        "contenedor contenedor"
+        "footer footer";
+        .categorias{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            grid-area: categorias;
+            padding: 1rem;
+        }
+        .portada{
+            display: none;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../PLACARD/Imagenes/portada.jpg);
+            background-size: cover;
+            grid-area: portada;
+        
+        }
+        .nav1{
+            background-color: $colorFondo;
+            grid-area: nav1;
+            font-family: 'Poppins', sans-serif;
+            display: none;
+            border-radius: 0.5rem;
+        }
+        .contenedor{
+            display: flex;
+            margin: 5px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            grid-area: contenedor;
+            
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
+}

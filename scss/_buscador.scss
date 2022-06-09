@@ -1,0 +1,27 @@
+.buscar{
+            text-align: center;
+            box-sizing: content-box;
+            size: 500px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: buscar;
+            .btn-outline-secondary{
+                --bs-btn-color: #5C1540;
+                --bs-btn-border-color: #5C1540;
+                --bs-btn-color-bg: #E8DDD9;
+                --bs-btn-hover-bg: #5C1540;
+                --bs-btn-hover-color: #fff;
+                
+            }
+            .text{
+                width: 500px;
+                height: 50px;
+                border-radius: 50px;
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                margin: 20px;
+                border-color: $colorLink;
+            }
+        }

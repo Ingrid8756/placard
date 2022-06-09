@@ -1,0 +1,46 @@
+.carrito{
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 2rem;
+    grid-area: carrito;
+    padding: 1rem;
+}
+.novedades{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    grid-area: novedades;
+    h2{
+        text-align: center;
+    }
+}
+.portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Imagenes/portada.jpg);
+    background-size: cover;
+    grid-area: portada;
+}
+.nav1{
+    background-color: $colorFondo;
+    grid-area: nav1;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    border-radius: 0.5rem;
+    .filtro1{
+        display: flex;
+        flex-direction: column;
+        justify-items:start;
+        align-items: flex-start;
+        margin: 20px;
+        list-style-type: none;
+        padding: 1rem;
+        --bs-link-color: #5C1540;
+        --bs-link-hover-color: #5C1540;
+    }
+}

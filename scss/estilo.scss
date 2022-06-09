@@ -1,0 +1,63 @@
+$colorFondo: #E8DDD9;
+$colorTit: #E04E4E;
+$colorLink: #5C1540;
+
+@import "header";
+@import "navbar";
+@import "buscador";
+@import "contenedor";
+@import "footer";
+@import "elementosmain";
+@import "mediaquerys";
+
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+        font-family: 'Oxygen', sans-serif;
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "categorias categorias"
+        "buscar buscar"
+        "portada portada"
+        "nav1 carrito"
+        "nav1 novedades"
+        "nav1 contenedor"
+        "nav1 contenedor"
+        "footer footer";
+        .h3, h3 {
+            font-size: calc(1.3rem);
+        }
+        .h2, h2 {
+            font-size: calc(1.5rem);
+        }
+        .h4, h4 {
+            font-size: calc(1.2rem);
+        }
+        
+            
+    }
+    
+    main{
+        display: grid;
+        grid-template-areas: 
+        "categorias categorias"
+        "buscar buscar"
+        "portada portada"
+        "nav1 carrito"
+        "nav1 novedades"
+        "nav1 contenedor"
+        "nav1 contenedor";
+        
+        
+        
+        
+    }
+    
+    
+
+
