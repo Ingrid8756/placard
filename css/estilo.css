@@ -185,6 +185,11 @@ footer {
   margin-right: 2rem;
   grid-area: carrito;
   padding: 1rem; }
+  .carrito a {
+    text-decoration: none;
+    color: #E04E4E; }
+    .carrito a:hover {
+      color: #5C1540; }
 
 .novedades {
   text-align: center;
