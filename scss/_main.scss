@@ -1,0 +1,22 @@
+main{
+    display: grid;
+    grid-template-areas: 
+    "categorias categorias"
+    "buscar buscar"
+    "portada portada"
+    "nav1 carrito"
+    "nav1 novedades"
+    "nav1 contenedor"
+    "nav1 contenedor";
+    
+    
+    
+    
+}
+.main-carrito{
+    display: grid;
+    grid-template-areas: 
+    "categorias categorias"
+    "buscar buscar"
+    "botones botones";
+}

@@ -1,0 +1,22 @@
+.boton{
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $colorLink;
+    border-color: $colorLink;
+    &:hover{
+        background-color: $colorLink;
+        color: #fff;
+    }
+    background-color: #E8DDD9;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),0 1px 1px rgba(0, 0, 0, 0.075);
+    display: inline-block;
+    justify-content: space-around;
+    margin: 2rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}

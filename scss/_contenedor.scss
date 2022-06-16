@@ -1,11 +1,5 @@
 .contenedor{
-    display: flex;
-    margin: 5px;
-    flex-wrap: wrap;
-    justify-content: right;
-    align-items: center;
-    align-content: center;
-    grid-area: contenedor;
+    @include flexible (wrap);
     .imagenes{
         list-style-type: none;
         margin: 10px;

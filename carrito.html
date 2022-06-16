@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carrito en Placard, listado de elementos">
+    <meta name="keywords"  content="ROPA, CARRITO, LOCALES, ENVIO, MODA, PAGO, EVENTO">
+    <title>Carrito Placard</title>
+    <!--link a la hoja de estilos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--link a estilo propio-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--shortcut icon-->
+    <link rel="shortcut icon" href="./Imagenes/favicon-16x16.png">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:wght@300;400&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+<!--animate css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!--Link a AOS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header>
+        
+        <h1 class="animate__animated animate__fadeInUp"><img src="./Imagenes/Logo.png" alt="Logo Placard" class="logo" width="80px"> Placard
+        </h1><br>
+    
+    </header><br><br>
+    
+    <main class="main-carrito">
+
+        <nav class="navbar navbar-expand-lg pi-4">
+            <div class="container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item p-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item dropdown p-2"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="remeras.html">Remeras</a></li><hr>
+                                
+                                <li><a class="dropdown-item" href="pantalones.html">Pantalones</a></li><hr>
+                                
+                                <li>Shorts y Bermudas</li><hr>
+                                
+                                <li>Faldas</li><hr>
+                                    
+                                <li>Abrigos</li><hr>
+                                    
+                                <li>Buzos y Sweaters</li><hr>
+                            
+                                <li>Calzado</li><hr>
+                                    
+                                <li>Accesorios</li><hr>
+                                
+                                <li>Fiesta</li>
+                                    
+                            </ul>
+                        </li>    
+                        <li class="nav-item p-2"><a class="nav-link" href="comocomprar.html">Como Comprar</a></li>
+                        <li class="nav-item p-2"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item p-2"><a class="nav-link" href="ayuda.html">Ayuda</a></li>
+                    </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="buscar">
+            <form action="Buscar" class="buscar" 200px></form>
+            <input type class="text" placeholder="Que estás buscando?">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+        </nav>
+        <br>
+                    
+        <section>
+            <button class="boton-clasico">Ir a Pagar</button>
+            <button class="boton-alerta">Seguir Comprando</button>
+            <button class="boton-activo">Vaciar</button>
+        </section>    
+    </main>
+        
+    <footer>
+        <section>
+            <img src="./Imagenes/Logo.png" alt="Logo" width="30px">
+            <h5>Contacto</h5>
+            <h5>Newsletter</h5>
+            <h5>Trabaja con Nosotros</h5>
+        </section>
+        <section class="redes">
+            <a href="https://www.instagram.com/" target="_blank"><img src="./Imagenes/Instagram_logo_2016.svg.webp" alt="Instagram" width="30px"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./Imagenes/Facebook Logo.png" alt="Facebook" width="30px"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="./Imagenes/Twitter Logo.jpg" alt="Twitter" width="30px"></a>
+        </section>
+        <section class="app">
+            <img src="./Imagenes/apple-logo-black-isolated-on-transparent-background-free-vector.webp" alt="App Store" width="30px">
+            <img src="./Imagenes/Google Play.png" alt="Play Store" width="30px">
+        </section>
+    </footer>
+    <!--script de AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
+    </script>
+
+    <!--script de JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

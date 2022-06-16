@@ -1,0 +1,9 @@
+@mixin flexible($direccion){
+    display: flex;
+    margin: 5px;
+    flex-wrap: $direccion;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    grid-area: contenedor;
+}
