@@ -20,3 +20,21 @@ main{
     "buscar buscar"
     "botones botones";
 }
+
+.mainCC{
+    display: grid;
+    grid-template-areas: 
+    "categorias categorias"
+    "buscar buscar"
+    "titulo carrito"
+    "como como";
+}
+
+.ayuda{
+    display: grid;
+    grid-template-areas: 
+    "categorias categorias"
+    "buscar buscar"
+    "titulo titulo"
+    "faq faq";
+}

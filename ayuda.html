@@ -9,16 +9,29 @@
     <title>Ayuda en Placard</title>
     <!--link a la hoja de estilos-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/estilo.css">
+    <!--link a estilo propio-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--shortcut icon-->
+    <link rel="shortcut icon" href="./Imagenes/favicon-16x16.png">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:wght@300;400&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+<!--animate css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!--Link a AOS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <header>
         
         <h1 class="animate__animated animate__fadeInUp"><img src="./Imagenes/Logo.png" alt="Logo Placard" class="logo" width="80px"> Placard
-        </h1><br>
+        </h1>
+        <h4 class=data-aos="fade-left">Buscador de ropa, calzado y accesorios en internet</h4>
     
-    </header><br><br>
-    <main>
+    </header>
+    <main class="Ayuda">
         <nav class="navbar navbar-expand-lg pi-4">
             <div class="container-fluid">
                 
@@ -58,6 +71,79 @@
                 </div>
             </div>
         </nav>
+        
+        <nav class="buscar">
+            <form action="Buscar" class="buscar" 200px></form>
+            <input type class="text" placeholder="Que estás buscando?">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+        </nav>
+        
+        <nav class="carrito">
+            <h4><a href="carrito.html"><img src="./Imagenes/carrito icono.png" alt="Carrito Icono" width="30px"></a></h4>
+        </nav> 
+
+        <h3>Preguntas Frecuentes</h3>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Consultas de stock
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">1. ¿Hay stock de todos los productos?
+
+                    Sí, todos los productos que publicamos están en stock. En caso de agotarse algún talle o color, esa característica se bloqueará (se verá tachada y no podrás seleccionarla). <br><br>
+                    
+                    2. Compré y me dijeron que no tienen stock, ¿qué hago?
+                    
+                    Esto es inusual, pero nuestro Centro de Atención al Cliente va a contactarse con vos para brindarte una solución. Si querés, podés comunicarte con enviando un mail a ventaonline@placard.com o llamando al: (011) 6842-3234. No olvides tener a mano tu número de pedido. <br><br>
+                    
+                    3. ¿Hay algún límite de compra?
+                    
+                    No. El único límite de compra que tenemos es el stock de nuestro e-Shop.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Formas de Pago
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> <em>1. ¿Cómo puedo pagar?</em><br>
+                    Podés pagar con:
+                    
+                    Tarjeta de crédito Visa o MasterCard. El sistema de cobranza es 100% seguro.
+                    
+                    Tarjeta de débito Visa. El sistema de cobranza es 100% seguro.
+                    
+                    También podemos tener promociones bancarias que se pagan a través de la plataforma de pago con tarjeta de crédito. En algunos casos podemos pedir información extra para corroborar la identidad del comprador. <br><br>
+                    
+                    <em>2. ¿Cómo se hace para pagar con tarjeta de crédito o débito?</em> 
+                    
+                    Agregá los productos que te interesen a tu carrito. Antes de finalizar la compra vas a poder elegir el medio de pago que prefieras (por ejemplo, tarjeta de crédito). Si necesitás ayuda acerca de cómo proceder para comprar, mirá el paso a paso aquí. Las promociones bancarias de cuotas sin interés serán comunicadas en el sitio. <br><br>
+                    
+                    <em>3. ¿Hay alguna promoción con tarjeta de crédito?</em> 
+                    
+                    Cuotas sin interés con VISA y MasterCard. <br><br>
+                    
+                    <em>4. ¿Cuándo se me debita el importe por mi compra?</em>
+                    Si elegiste pagar con tarjeta de crédito, verás el importe descontado en el resumen correspondiente al próximo cierre de tarjeta. Si pagaste con el dinero de tu cuenta en MercadoPago, el débito será inmediato.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Devolución de productos, cambios y reintegros.
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Podés devolver tus productos y solicitar un cambio o reintegro de manera simple, mediante el siguiente enlace. El tiempo de duración este proceso es de aproximadamente 20 días hábiles. </div>
+              </div>
+            </div>
+          </div>
+        
     </main>
     <footer>
         <section>

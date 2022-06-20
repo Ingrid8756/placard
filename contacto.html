@@ -6,21 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contactanos en Placard, toda la ropa de internet en un solo lugar">
     <meta name="keywords"  content="ROPA, CONTACTO, MODA, EVENTO, CONSULTAS">
-    <title>Contacto Placard</title>
+    <title>Contactanos</title>
     <!--link a la hoja de estilos-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/estilo.css">
+    <!--link a estilo propio-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--shortcut icon-->
     <link rel="shortcut icon" href="./Imagenes/favicon-16x16.png">
+    <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:wght@300;400&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+<!--animate css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!--Link a AOS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
         
-        <h1 id="Arriba"><img src="./Imagenes/Logo.png" alt="Logo Placard" width="80px"> Placard</h1><br>
+        <h1 class="animate__animated animate__fadeInUp"><img src="./Imagenes/Logo.png" alt="Logo Placard" class="logo" width="80px"> Placard
+        </h1>
+        <h4 class=data-aos="fade-left">Buscador de ropa, calzado y accesorios en internet</h4>
         
-    </header><br>
+    </header>
     
     <main>
         <nav class="navbar navbar-expand-lg pi-4">
@@ -63,20 +72,38 @@
             </div>
         </nav>
         <nav class="buscar">
-            <form action="Buscar"></form>
-            <input type="text" placeholder="Que estas buscando?">
+            <form action="Buscar" class="buscar" 200px></form>
+            <input type class="text" placeholder="Que estás buscando?">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
         </nav>
         
         
         <nav class="carrito">
-            <h3>Carrito <img src="./Imagenes/carrito icono.png" alt="Carrito Icono" width="30px"></h3>
-        </nav>
+            <h4><a href="carrito.html"><img src="./Imagenes/carrito icono.png" alt="Carrito Icono" width="30px"></a></h4>
+                        
+        </nav>   
         
+        
+        
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+        
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+        
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea><br>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+        
+
     </main>
-    <footer><br><hr>
+    <footer>
         <section>
-            <img src="./Imagenes/Logo.png" alt="Logo" width="30px">
-            <h5>Contacto</h5>
+            <img src="./Imagenes/Logo.png" alt="Logo" width="30px"><br>
+            <br><h5>Contacto</h5>
             <h5>Newsletter</h5>
             <h5>Trabaja con Nosotros</h5>
         </section>

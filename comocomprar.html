@@ -6,26 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Como comprar en Placard, toda la ropa de internet en un solo lugar">
     <meta name="keywords"  content="ROPA, COMO, COMPRAR, LOCALES, ENVIO, MODA, PAGO, EVENTO">
+    <title>Como Comprar en Placard</title>
     <!--link a la hoja de estilos-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/estilo.css">
+    <!--link a estilo propio-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--shortcut icon-->
     <link rel="shortcut icon" href="./Imagenes/favicon-16x16.png">
+    <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:wght@300;400&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
-    <title>Como Comprar en Placard</title>
+<!--animate css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!--Link a AOS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
+    
+        
     <header>
         
-        <h1 id="Arriba"><img src="./Imagenes/Logo.png" alt="Logo Placard" width="80px"> Placard
-
-        </h1><br>
+            <h1 class="animate__animated animate__fadeInUp"><img src="./Imagenes/Logo.png" alt="Logo Placard" class="logo" width="80px"> Placard
+            </h1>
+            <h4 class=data-aos="fade-left">Buscador de ropa, calzado y accesorios en internet</h4>
         
+    </header>
     
-    </header><br>
-    
-    <main>
+    <main class="mainCC">
         <nav class="navbar navbar-expand-lg pi-4">
             <div class="container-fluid">
                 
@@ -67,51 +76,42 @@
         </nav>
         <nav class="buscar">
             <form action="Buscar" class="buscar" 200px></form>
-            <input type class="text" placeholder="Que estas buscando?">
+            <input type class="text" placeholder="Que estás buscando?">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
         </nav>
+        <br>
         
         
         <nav class="carrito">
-            <h3>Carrito <img src="./Imagenes/carrito icono.png" alt="Carrito Icono" width="30px"></h3>
-        </nav>
+            <h4><a href="carrito.html"><img src="./Imagenes/carrito icono.png" alt="Carrito Icono" width="30px"></a></h4>
+        </nav> 
+
+        <h3>Como Comprar</h3>
+
         
-        <h2>Como Comprar</h2>
-        <div class="col col-12">
-            <ul class="contenedor">
-                <li><img src="./Imagenes/Lupa Icono.png" alt="Lupa Icono" width="100px">
-                </li>
-                <li><h4>Busca el producto que quieras. Ejemplo "Pantalon sastrero negro"</h4>
-                </li>
-            </ul>
-            <ul class="contenedor">
-                <li><img src="./Imagenes/prendas icono.png" alt="Prendas icono" width="100px">
-                </li>
-                <li><h4>
-                Mirá las opciones de las distintas tiendas. Tambien podes filtar por precio, talle, color, etc.
-                </h4></li>   
-            </ul>
-            <ul class="contenedor">
-                <li><img src="./Imagenes/click icono.webp" alt="Click icono" width="100px"></li>
-                <li><h4>Elegí las que te gusten del listado, las podes guardar en favoritos o ingresar a comprar las prendas directamente al link de la pagina de cada tienda. Y listo!</h4>
-                </li>
-            </ul>
-        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><img src="./Imagenes/Lupa Icono.png" alt="Lupa Icono" width="40px">  Busca el producto que quieras en nuestro buscador. Ejemplo "Pantalón sastrero negro"
+            También podés elegir por categorías y ver todas los items disponibles.</li>
+            <li class="list-group-item"><img src="./Imagenes/prendas icono.png" alt="Prendas icono" width="40px">  Mirá las opciones de las distintas tiendas. Utiliza nuestros filtros para optimizar la búsqueda.</li>
+            <li class="list-group-item"><img src="./Imagenes/click icono.webp" alt="Click icono" width="40px">  Elegí las que te gusten del listado, las podes guardar en Bolsa de Compras o ingresar a comprar las prendas directamente al link de la pagina de cada tienda.</li>
+            <li class="list-group-item"><img src="./Imagenes/carrito icono.png" alt="Carrito Icono" width="40px">  Desde Bolsa de Compras podes ir a pagar cada prenda con la financiación y medios de pago que tiene cada página</li>
+        </ul>
 
     </main><br>
-    <hr><br>
+    
     <footer>
         <section>
-            <img src="./Imagenes/Logo.png" alt="Logo" width="30px">
-            <h5>Contacto</h5>
+            <img src="./Imagenes/Logo.png" alt="Logo" width="30px"><br>
+            <br><h5>Contacto</h5>
             <h5>Newsletter</h5>
             <h5>Trabaja con Nosotros</h5>
         </section>
-        <section>
+        <section class="redes">
             <a href="https://www.instagram.com/" target="_blank"><img src="./Imagenes/Instagram_logo_2016.svg.webp" alt="Instagram" width="30px"></a>
             <a href="https://www.facebook.com/" target="_blank"><img src="./Imagenes/Facebook Logo.png" alt="Facebook" width="30px"></a>
             <a href="https://www.twitter.com/" target="_blank"><img src="./Imagenes/Twitter Logo.jpg" alt="Twitter" width="30px"></a>
-        </section><br>
-        <section>
+        </section>
+        <section class="app">
             <img src="./Imagenes/apple-logo-black-isolated-on-transparent-background-free-vector.webp" alt="App Store" width="30px">
             <img src="./Imagenes/Google Play.png" alt="Play Store" width="30px">
         </section>

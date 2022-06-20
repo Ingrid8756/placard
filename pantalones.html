@@ -7,25 +7,33 @@
     <meta name="description" content="En Placard encontraras todos los pantalones de internet en un solo lugar">
     <meta name="keywords"  content="ROPA, PANTALON, MODA, EVENTO">
     <title>Todos los Pantalones en un solo lugar</title>
-    <!--link a la hoja de estilos-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/estilo.css">
-    <link rel="shortcut icon" href="./Imagenes/favicon-16x16.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <!--link a la hoja de estilos-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <!--link a estilo propio-->
+   <link rel="stylesheet" href="css/estilo.css">
+   <!--shortcut icon-->
+   <link rel="shortcut icon" href="./Imagenes/favicon-16x16.png">
+   <!--Google fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:wght@300;400&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+<!--animate css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!--Link a AOS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <h1 id="Arriba"><img src="./Imagenes/Logo.png" alt="Logo Placard" class="logo" width="80px"> Placard
-
-        </h1><br>
         
-        
-    </header><br>
+        <h1 class="animate__animated animate__fadeInUp"><img src="./Imagenes/Logo.png" alt="Logo Placard" class="logo" width="80px"> Placard
+        </h1>
+        <h4 class=data-aos="fade-left">Buscador de ropa, calzado y accesorios en internet</h4>
     
+    </header>
     
     <main>
+
         <nav class="navbar navbar-expand-lg pi-4">
             <div class="container-fluid">
                 
@@ -34,7 +42,6 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item p-2"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item dropdown p-2"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="remeras.html">Remeras</a></li><hr>
@@ -68,15 +75,15 @@
         </nav>
         <nav class="buscar">
             <form action="Buscar" class="buscar" 200px></form>
-            <input type class="text" placeholder="Que estas buscando?">
+            <input type class="text" placeholder="Que estás buscando?">
             <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
         </nav>
-        
+        <br>
+                    
         <nav class="carrito">
-            <h3>Carrito <img src="./Imagenes/carrito icono.png" alt="Carrito Icono" width="30px"></h3>
+            <h4><a href="carrito.html"><img src="./Imagenes/carrito icono.png" alt="Carrito Icono" width="30px"></a></h4>
+                        
         </nav>
-    
-        <br><br>
         <nav class="nav1">
             <ul class="filtro1">
                 <h3>Filtros</h3>
@@ -167,11 +174,11 @@
                 <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
             </ul>
         </div>
-    </main><br><hr><br>
+    </main><br>
     <footer>
         <section>
-            <img src="./Imagenes/Logo.png" alt="Logo" width="30px">
-            <h5>Contacto</h5>
+            <img src="./Imagenes/Logo.png" alt="Logo" width="30px"><br>
+            <br><h5>Contacto</h5>
             <h5>Newsletter</h5>
             <h5>Trabaja con Nosotros</h5>
         </section>

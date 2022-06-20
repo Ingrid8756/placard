@@ -28,7 +28,6 @@
 
 body {
   font-family: 'Oxygen', sans-serif;
-  display: grid;
   grid-template-areas: "header header" "categorias categorias" "buscar buscar" "portada portada" "nav1 carrito" "nav1 novedades" "nav1 contenedor" "nav1 contenedor" "footer footer"; }
   body .h3, body h3 {
     font-size: calc(1.3rem); }
@@ -45,6 +44,14 @@ main {
 .main-carrito {
   display: grid;
   grid-template-areas: "categorias categorias" "buscar buscar" "botones botones"; }
+
+.mainCC {
+  display: grid;
+  grid-template-areas: "categorias categorias" "buscar buscar" "titulo carrito" "como como"; }
+
+.ayuda {
+  display: grid;
+  grid-template-areas: "categorias categorias" "buscar buscar" "titulo titulo" "faq faq"; }
 
 header {
   background-color: #E8DDD9;
@@ -132,7 +139,7 @@ header {
     border-radius: 50px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    margin: 20px;
+    margin: 15px;
     border-color: #5C1540; }
 
 .contenedor {
@@ -227,6 +234,52 @@ footer {
     padding: 1rem;
     --bs-link-color: #5C1540;
     --bs-link-hover-color: #5C1540; }
+
+.mb-3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: 25rem;
+  justify-content: center;
+  justify-items: center;
+  align-content: center; }
+  .mb-3 .btn-primary {
+    --bs-btn-color: #f1e8ee;
+    --bs-btn-border-color: #5C1540;
+    --bs-btn-bg: #5C1540;
+    --bs-btn-hover-border-color: #5C1540;
+    --bs-btn-hover-bg: #f1e8ee;
+    --bs-btn-hover-color: #5C1540; }
+
+.list-group {
+  font-family: 'Poppins', sans-serif;
+  --bs-list-group-color: #5C1540;
+  margin-left: 15rem;
+  margin-right: 10rem;
+  display: flex;
+  justify-content: center;
+  width: 40rem;
+  height: 25rem;
+  grid-area: como; }
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  margin-left: 5rem;
+  grid-area: titulo; }
+
+.accordion {
+  --bs-accordion-active-color: #5C1540;
+  --bs-accordion-active-bg: #e7f1ff;
+  --bs-accordion-btn-focus-box-shadow: #ebc9dd;
+  --bs-accordion-btn-focus-border-color: #e7bcd6;
+  width: 40rem;
+  font-family: 'Poppins', sans-serif;
+  grid-area: faq;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50rem;
+  margin-bottom: 10rem; }
 
 @media screen and (max-width: 1024px) {
   body {
