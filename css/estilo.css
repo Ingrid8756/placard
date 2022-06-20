@@ -51,7 +51,7 @@ main {
 
 .ayuda {
   display: grid;
-  grid-template-areas: "categorias categorias" "buscar buscar" "titulo titulo" "faq faq"; }
+  grid-template-areas: "categorias categorias" "buscar buscar" "titulo carrito" "faq faq"; }
 
 header {
   background-color: #E8DDD9;
@@ -273,13 +273,14 @@ h3 {
   --bs-accordion-active-bg: #e7f1ff;
   --bs-accordion-btn-focus-box-shadow: #ebc9dd;
   --bs-accordion-btn-focus-border-color: #e7bcd6;
-  width: 40rem;
+  width: 45rem;
+  margin-left: 18rem;
+  margin-right: 20rem;
+  margin-bottom: 10rem;
   font-family: 'Poppins', sans-serif;
   grid-area: faq;
   display: flex;
-  flex-direction: column;
-  margin-right: 50rem;
-  margin-bottom: 10rem; }
+  flex-direction: column; }
 
 @media screen and (max-width: 1024px) {
   body {
