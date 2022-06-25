@@ -3,8 +3,7 @@ header {
   text-align: center;
   -webkit-box-shadow: 10px 5px 10px #adadad;
           box-shadow: 10px 5px 10px #adadad;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
+  
   -ms-grid-column-span: 2;
   grid-area: header;
   display: -webkit-box;
@@ -41,7 +40,7 @@ header h1 {
           justify-content: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -ms-grid-row: 1;
+  
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: categorias;
@@ -111,8 +110,7 @@ header h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
+  
   -ms-grid-column-span: 2;
   grid-area: buscar;
 }
@@ -150,9 +148,9 @@ header h1 {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  -ms-grid-row: 6;
+  
   -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
+  
   grid-area: contenedor;
 }
 
@@ -190,8 +188,7 @@ footer {
   background-color: beige;
   text-align: center;
   font-family: 'Oxygen', sans-serif;
-  -ms-grid-row: 9;
-  -ms-grid-column: 1;
+  
   -ms-grid-column-span: 2;
   grid-area: footer;
   padding: 1rem;
@@ -216,8 +213,7 @@ footer .h5, footer h5 {
   text-align: right;
   font-family: 'Poppins', sans-serif;
   margin-right: 2rem;
-  -ms-grid-row: 4;
-  -ms-grid-column: 2;
+  
   grid-area: carrito;
   padding: 1rem;
 }
@@ -237,8 +233,7 @@ footer .h5, footer h5 {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  -ms-grid-row: 5;
-  -ms-grid-column: 2;
+  
   grid-area: novedades;
 }
 
@@ -258,17 +253,16 @@ footer .h5, footer h5 {
           align-items: center;
   background-image: url(../Imagenes/portada.jpg);
   background-size: cover;
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
+  
   -ms-grid-column-span: 2;
   grid-area: portada;
 }
 
 .nav1 {
   background-color: #E8DDD9;
-  -ms-grid-row: 4;
+ 
   -ms-grid-row-span: 4;
-  -ms-grid-column: 1;
+  
   grid-area: nav1;
   font-family: 'Poppins', sans-serif;
   display: -webkit-box;
@@ -301,7 +295,11 @@ footer .h5, footer h5 {
     font-family: 'Oxygen', sans-serif;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header header" "hambur buscador" "contenedor contenedor" "contenedor contenedor" "footer footer";
+        grid-template-areas: "header header"
+ "hambur buscador"
+ "contenedor contenedor"
+ "contenedor contenedor"
+ "footer footer";
   }
   body .categorias {
     text-align: center;
@@ -315,8 +313,7 @@ footer .h5, footer h5 {
             justify-content: center;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
+    
     -ms-grid-column-span: 2;
     grid-area: categorias;
     padding: 1rem;
@@ -331,16 +328,15 @@ footer .h5, footer h5 {
             align-items: center;
     background-image: url(../PLACARD/Imagenes/portada.jpg);
     background-size: cover;
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    
     -ms-grid-column-span: 2;
     grid-area: portada;
   }
   body .nav1 {
     background-color: #E8DDD9;
-    -ms-grid-row: 4;
+    
     -ms-grid-row-span: 4;
-    -ms-grid-column: 1;
+    
     grid-area: nav1;
     font-family: 'Poppins', sans-serif;
     display: none;
@@ -361,9 +357,9 @@ footer .h5, footer h5 {
             align-items: center;
     -ms-flex-line-pack: center;
         align-content: center;
-    -ms-grid-row: 6;
+    
     -ms-grid-row-span: 2;
-    -ms-grid-column: 2;
+    
     grid-area: contenedor;
   }
 }
@@ -379,7 +375,15 @@ body {
   font-family: 'Oxygen', sans-serif;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "header header" "categorias categorias" "buscar buscar" "portada portada" "nav1 carrito" "nav1 novedades" "nav1 contenedor" "nav1 contenedor" "footer footer";
+      grid-template-areas: "header header"
+ "categorias categorias"
+ "buscar buscar"
+ "portada portada"
+ "nav1 carrito"
+ "nav1 novedades"
+ "nav1 contenedor"
+ "nav1 contenedor"
+ "footer footer";
 }
 
 body .h3, body h3 {
@@ -397,6 +401,12 @@ body .h4, body h4 {
 main {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "categorias categorias" "buscar buscar" "portada portada" "nav1 carrito" "nav1 novedades" "nav1 contenedor" "nav1 contenedor";
+      grid-template-areas: "categorias categorias"
+ "buscar buscar"
+ "portada portada"
+ "nav1 carrito"
+ "nav1 novedades"
+ "nav1 contenedor"
+ "nav1 contenedor";
 }
 /*# sourceMappingURL=estilo.css.map */

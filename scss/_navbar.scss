@@ -9,13 +9,14 @@
     padding: 1rem;
     grid-column: 1/3;
     --bs-navbar-color: #E04E4E;
-    --bs-navbar-background-color: rgb(249, 250, 178);
+    --bs-navbar-background-color: #f9fab2;
+    --bs-navbar-hover-color: #5C1540;
     .menu{
         list-style-type: none;
         li{
             display: inline-block;
             text-align: center;
-            background-color: rgb(249, 250, 178);
+            background-color: #f9fab2;
             border-radius: 0.3rem;
             padding-inline: 2.5rem;
             margin: 0.5rem;
@@ -24,7 +25,7 @@
                 display: inline-block;
                 color: $colorTit;
                 &:hover{
-                    color: $colorLink;
+                    color: #5C1540;
                 }
                 ul{
                     display: none;
@@ -44,9 +45,21 @@
                         }   
                     
                     }
+                    
+                    
                 }
             }
             
+            
         } 
     }
+}
+.dropdown-menu{
+    --bs-dropdown-color: #E04E4E;
+    --bs-dropdown-bg: #f9fab2;
+}
+ul li:hover ul{
+    display: block;
+    background-color: rgb(249, 250, 178);
+    text-align: left;
 }
